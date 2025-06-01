@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BBB",
+    "B B",
+    "B B"
+  ],
+  "key": {
+    "B": {
+      "item": "veilmod:misty_ashes"
+    }
+  },
+  "result": {
+    "item": "veilmod:mist_leggings",
+    "count": 1
+  }
+}

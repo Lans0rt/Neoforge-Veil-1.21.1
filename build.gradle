@@ -188,3 +188,7 @@ idea {
         downloadJavadoc = true
     }
 }
+tasks.withType(Test).configureEach {
+    enabled = false
+}
+

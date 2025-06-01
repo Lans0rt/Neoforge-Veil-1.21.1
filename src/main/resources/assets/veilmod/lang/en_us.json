@@ -3,7 +3,12 @@
 
   "item.veilmod.mistberry": "Mistberry",
 
-  "item.veilmod.heart_veil": "Heart of the Veil"
+  "item.veilmod.heart_veil": "Heart of the Veil",
+
+  "item.veilmod.mist_helmet": "Mist Helmet",
+  "item.veilmod.mist_legginst": "Mist Legginst",
+  "item.veilmod.mist_chestplate": "Mist Chestplate",
+  "item.veilmod.mist_boots": "Mist Boots"
 }
 
 

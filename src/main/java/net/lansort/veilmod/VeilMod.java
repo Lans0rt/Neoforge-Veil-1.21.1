@@ -1,6 +1,7 @@
 package net.lansort.veilmod;
 
 import net.lansort.veilmod.item.ModItems;
+import net.lansort.veilmod.item.ModCreativeModTabs;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -37,6 +38,10 @@ public class VeilMod
 
         ModItems.register(modEventBus);
 
+        ModCreativeModTabs.register(modEventBus);
+
+
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -50,11 +55,6 @@ public class VeilMod
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.Misty_Ashes);
-            event.accept(ModItems.MISTBERRY);
-            event.accept(ModItems.Heart_Veil);
-        }
 
     }
 
