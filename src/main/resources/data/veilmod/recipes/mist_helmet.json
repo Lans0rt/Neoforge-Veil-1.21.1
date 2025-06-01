@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-  "B": {
-    "item": "veilmod:misty_ashes"
-  }
-},
+  "category": "equipment",
   "pattern": [
-    "BBB",
-    "B B",
-    ""
+    "XXX",
+    "X X",
+    "   "
   ],
-  "result":{
-    "count": 1,
-    "item": "veilmod:mist_helmet"
+  "key": {
+    "X": {
+      "item": "veilmod:misty_ashes"
+    }
+  },
+  "result": {
+    "item": "veilmod:mist_helmet",
+    "count": 1
   }
 }
