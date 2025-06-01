@@ -6,9 +6,12 @@
   "item.veilmod.heart_veil": "Heart of the Veil",
 
   "item.veilmod.mist_helmet": "Mist Helmet",
-  "item.veilmod.mist_legginst": "Mist Legginst",
+  "item.veilmod.mist_leggings": "Mist Leggings",
   "item.veilmod.mist_chestplate": "Mist Chestplate",
-  "item.veilmod.mist_boots": "Mist Boots"
+  "item.veilmod.mist_boots": "Mist Boots",
+  "effect.veilmod.call_veil": "Call of Veil",
+  "effect.veilmod.call_veil.description": "Increased speed when moving in the correct direction",
+  "tooltip.veilmod.direction": "Direction: %s"
 }
 
 

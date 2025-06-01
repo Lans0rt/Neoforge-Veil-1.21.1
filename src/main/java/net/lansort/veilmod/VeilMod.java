@@ -1,8 +1,8 @@
 package net.lansort.veilmod;
 
+import net.lansort.veilmod.effect.ModEffects;
 import net.lansort.veilmod.item.ModItems;
 import net.lansort.veilmod.item.ModCreativeModTabs;
-import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -40,6 +40,9 @@ public class VeilMod
 
         ModCreativeModTabs.register(modEventBus);
 
+        ModEffects.register(modEventBus);
+
+
 
 
         // Register the item to a creative tab
@@ -52,6 +55,7 @@ public class VeilMod
     private void commonSetup(final FMLCommonSetupEvent event) {
 
     }
+
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {

@@ -24,19 +24,19 @@ public class ModItems {
 
 
     public static final DeferredItem<ArmorItem> MIST_HELMET = ITEMS.register("mist_helmet",
-            () -> new ArmorItem(ModArmorMaterials.MIST_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+            () -> new VeilArmorItem(ModArmorMaterials.MIST_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
                     new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(25))));
 
     public static final DeferredItem<ArmorItem> MIST_LEGGINGS = ITEMS.register("mist_leggings",
-            () -> new ArmorItem(ModArmorMaterials.MIST_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+            () -> new VeilArmorItem(ModArmorMaterials.MIST_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
                     new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(25))));
 
     public static final DeferredItem<ArmorItem> MIST_CHESTPLATE = ITEMS.register("mist_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.MIST_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+            () -> new VeilArmorItem(ModArmorMaterials.MIST_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
                     new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(25))));
 
     public static final DeferredItem<ArmorItem> MIST_BOOTS = ITEMS.register("mist_boots",
-            () -> new ArmorItem(ModArmorMaterials.MIST_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+            () -> new VeilArmorItem(ModArmorMaterials.MIST_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(25))));
 
     public static void register(IEventBus eventBus) {
